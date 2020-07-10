@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyQuestionApp</string>
+    <string name="Q1">Voulez vous jouer?</string>
+    <string name="Q2">Ecouter du Mozart améliore-t-il l\'intelligence des enfants?</string>
+    <string name="Q3">Les autruches mettent-elles la tête dans le sable quand elles ont peur?</string>
+    <string name="Q4">Les élèphants ont-ils peur des souris?</string>
+    <string name="Q5">Un élèphant a-t-il une excellente mémoire?</string>
+    <string name="Q6">Le sens de rotaion de l\'eau dépend t-il de l\'hémisphère où on se trouve?</string>
+    <string name="Q7">La langue est elle le muscle le plus puissant du corps?</string>
+    <string name="Q8">Le poisson est-il bon pour la memoire vu qu\'il contient du phosphore?</string>
+    <string name="Q9">L\'espérance de vie sur la bande d\'arret d\'urgence n\'excède pas 20secondes?</string>
+    <string name="Q10">Les lynx ont-ils une vue exceptionnelle?</string>
+    <string name="Q11">l\'effet placebo existe-t-il chez les animaux?</string>
+    <string name="Q12">Les Vikings et les Indiens se sont-ils rencontrés au 11ieme siecle?</string>
+
+</resources>

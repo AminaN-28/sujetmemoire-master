@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ShoppingList Manager</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+
+    <string name="firstname">First Name</string>
+    <string name="Sname">Surname</string>
+
+
+    <string name="to_shop">Something to shop</string>
+    <string name="qte">A determinate or estimated amount</string>
+    <string name="price">Article\'s amount</string>
+
+
+    <string name="bye">Thank you for your visit.
+        See you soon!</string>
+
+    <string name="crea">Créé le:</string>
+    <string name="modif">Modifié le:</string>
+
+    <string name="listename">THE SHOPPING LIST </string>
+    <string name="editionstart">Start My Edition</string>
+    <string name="ListAmount">List\'s Amount</string>
+    <string name="ListName">List\'s Name</string>
+    <string name="ListDate">List\'s Date Edition</string>
+
+
+    <string name="ListAddbtn">Add a new list</string>
+
+    <string name="ListAdd">Add an article</string>
+
+    <string name="Qterecup">Quantity</string>
+    <string name="PriceRecup">Price</string>
+
+</resources>

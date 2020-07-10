@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shoppinlist">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ArticleAdded_List"></activity>
+        <activity android:name=".ShowListArticle"
+            android:label="Article List" android:parentActivityName=".ShoppingListShow"/>
+        <activity android:name=".AllShoppinList" />
+        <activity android:name=".ShoppingListShow" /> <!-- activity android:name=".ShoppinListAdapter" / -->
+        <activity android:name=".List_Editor" />
+        <activity android:name=".LastPage" />
+        <activity android:name=".ArticleBD" />
+        <activity android:name=".ShoppingListEditor" />
+        <activity android:name=".Home_SL" />
+        <activity android:name=".Login"/>
+        <activity android:name=".Register" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Slide_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

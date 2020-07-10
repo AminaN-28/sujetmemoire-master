@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Quest"
+        android:textColor="#ff8f"
+        android:textSize="30sp"
+        android:layout_below="@id/score"
+        android:text="@string/Q1"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/score"
+        android:textColor="#ff0f"
+        android:textSize="30sp"
+        android:text="Score"/>
+
+
+    <LinearLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Quest"
+        android:layout_centerVertical="true"
+        tools:ignore="UnknownId">
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/vr"
+        android:textSize="15sp"
+        android:text="vrai"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/fal"
+        android:text="faux"/>
+
+</LinearLayout>
+
+
+    <RelativeLayout
+    android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:background="#f0f"
+        android:id="@+id/hlp"
+        android:text="help"/>
+
+    </RelativeLayout>
+
+    <ProgressBar android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="20sp" android:text="1/10"
+        android:layout_alignParentRight="true"
+        android:layout_above="@id/progressBar"/>
+
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/libELT"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="-7dp"
+        android:orientation="vertical">
+
+        <!--ImageView
+            android:id="@+id/icon"
+            android:layout_width="128dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/ic_image_black_24dp"
+            android:padding="5dp" /-->
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="159dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="298dp"
+            android:padding="2dp"
+            android:text="Libellé de l'element"
+            android:textColor="#4d4d4d"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Date"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:text="@string/ListDate"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/subtitle1"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-73dp"
+            android:layout_marginRight="3dp"
+            android:text="Quantite"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/sous_titre"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subtitle1"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="138dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginRight="0dp"
+            android:text="Montant"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/budget"
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Date"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/ListAmount" />
+
+
+        <!--CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:checked="true"/-->
+
+    </RelativeLayout>
+
+</RelativeLayout>

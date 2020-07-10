@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="103dp">
+
+        <TextView
+            android:id="@+id/articlename"
+            android:layout_width="305dp"
+            android:layout_height="33dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="Nom de l'article"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:visibility="visible" />
+
+
+        <RelativeLayout
+            android:layout_width="302dp"
+            android:layout_height="49dp"
+            android:layout_below="@+id/articlename"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="103dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/articleamount"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/PriceRecup"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+            <TextView
+                android:id="@+id/price_recup"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/articleamount"
+                android:layout_toRightOf="@+id/articleamount"
+                android:text="PRIX RECUPERE"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/articleqte"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/articleamount"
+                android:layout_marginTop="9dp"
+                android:text="@string/Qterecup"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+            <TextView
+                android:id="@+id/qte_recup"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/price_recup"
+                android:layout_marginStart="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="9dp"
+                android:layout_toEndOf="@+id/articleqte"
+                android:layout_toRightOf="@+id/articleqte"
+                android:text="QTE RECUPERE"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/Img_recup"
+            android:layout_width="102dp"
+            android:layout_height="96dp"
+            app:srcCompat="@drawable/ic_image_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

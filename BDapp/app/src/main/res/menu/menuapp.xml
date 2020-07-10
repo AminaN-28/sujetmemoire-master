@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Add"
+        android:id="@+id/addid"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="always">
+    </item>
+    <item android:title="Delete"
+        android:id="@+id/deleteid"
+        android:icon="@android:drawable/ic_delete"
+        app:showAsAction="always">
+    </item>
+
+        <!--Clic droit dans res android res direct. choose menu clic droit dans menu faire menu ressource file
+        toutes les menus quon peut avoir dans le menu. android:icon="@android:drawable/ic_delete permet davoir un croix sur le menu
+    app:showAsAction=always veut dire qu'il va directement afficher ca.Le showsAction permet que l'icone s'affiche.
+    app:showAsAction=ifroom comme les listes deroulantes. si on met app:showAsAction=never on aura les 3points vericaux-->
+</menu>

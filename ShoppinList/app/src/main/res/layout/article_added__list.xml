@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ArticleAdded_List">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/addedlist">
+
+    </ListView>
+
+
+    <RelativeLayout
+        android:id="@+id/btns"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentBottom="true"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="657dp">
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="98.5dp"
+            android:layout_marginTop="579dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="Ok"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/edit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="580dp"
+            android:layout_toRightOf="@+id/ok_button"
+            android:layout_weight="1"
+            android:background="@drawable/btn_bg"
+            android:text="Edit"
+            android:textColor="@color/colorWhite" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllShoppinList">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="223dp"
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/Ims">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_marginTop="75dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="casual"
+                android:layout_marginRight="5dp"
+                android:text="company"
+                android:textAlignment="textEnd"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:gravity="end" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:text="Shopping List Management"
+                android:textAlignment="viewStart"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:gravity="start" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="507dp"
+        android:layout_below="@+id/Ims"
+        >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="ALL LISTs"/>
+
+
+
+
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowListArticle">
+
+    <GridView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:columnWidth="130dp"
+        android:gravity="center"
+        >
+
+    </GridView>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addartt"
+        android:layout_marginBottom="54dp"
+        android:background="@drawable/btn_bg"
+        android:text="Validate"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:id="@+id/oktn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:background="@drawable/btn_bg"
+        android:layout_alignParentBottom="true"
+        android:text="@string/ListAdd"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:fontFamily="casual"
+        android:textSize="20dp"
+        android:id="@+id/addartt"/>
+
+</RelativeLayout>

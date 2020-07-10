@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListEditor">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@color/colorPrimaryDark">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/listedit"
+        android:layout_width="315dp"
+        android:layout_height="415dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/login"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/editlist"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_weight="0"
+            android:hint="@string/ListName"
+            android:paddingRight="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/amountlist"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editlist"
+            android:layout_marginTop="40dp"
+            android:layout_weight="1"
+            android:hint="@string/ListAmount"
+            android:inputType="number"
+            android:paddingRight="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/datelist"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editlist"
+            android:layout_marginTop="131dp"
+            android:layout_weight="1"
+            android:hint="@string/ListDate"
+            android:inputType="datetime"
+            android:paddingRight="10dp"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white" />
+
+
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:fontFamily="cursive"
+                android:text="@string/listename"
+                android:textAlignment="center"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/startbtn"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/amountlist"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="132dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/editionstart"
+            android:textColor="@color/colorWhite" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
