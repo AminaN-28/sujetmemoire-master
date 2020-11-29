@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login.Login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@color/white"
+        />
+
+    <!--TextView
+        android:id="@+id/topText"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="Welcome My dear To Blood Line App.\nCan I have your number?"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" /-->
+
+
+    <!--This is the first Step-->
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="530dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="93dp"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/fullname"
+
+            android:background="@drawable/edittext_backgroung"
+            android:gravity="center"
+            android:hint="Enter Your name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/userPhone"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/usernumber"
+
+            android:background="@drawable/edittext_backgroung"
+            android:gravity="center"
+            android:hint="Enter Your Phone Number "
+            android:inputType="number" />
+
+
+        <EditText
+            android:id="@+id/userpassword"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/password"
+
+            android:background="@drawable/edittext_backgroung"
+            android:gravity="center"
+            android:hint="Define Your Password"
+            android:inputType="text" />
+
+
+        <EditText
+            android:id="@+id/usercity"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/city"
+
+            android:background="@drawable/edittext_backgroung"
+            android:gravity="center"
+            android:hint="Enter Your City " />
+
+        <EditText
+            android:id="@+id/bloodgroup"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/grpeS"
+            android:background="@drawable/edittext_backgroung"
+            android:gravity="center"
+            android:hint="Enter Your Blood Group " />
+
+        <EditText android:layout_height="40dp"
+            android:layout_width="350dp"
+            android:layout_below="@+id/weight"
+
+            android:background="@drawable/edittext_backgroung"
+            android:hint="Enter Your Weight"
+            android:gravity="center"
+            android:id="@+id/userweight"/>
+
+        <EditText android:layout_height="40dp"
+            android:layout_width="350dp"
+            android:layout_below="@+id/age"
+            android:id="@+id/userage"
+            android:background="@drawable/edittext_backgroung"
+            android:hint="Enter Your Age"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/fullname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:text="Full Name" />
+
+        <TextView
+            android:id="@+id/usernumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/username"
+            android:padding="4dp"
+            android:text="Phone Number" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userPhone"
+            android:padding="4dp"
+            android:text="Password" />
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userpassword"
+            android:padding="4dp"
+            android:text="City" />
+
+        <TextView
+            android:id="@+id/grpeS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/usercity"
+            android:padding="4dp"
+            android:text="Blood Group" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bloodgroup"
+            android:padding="4dp"
+            android:text="Weight"
+            android:id="@+id/weight"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/userweight"
+            android:padding="4dp"
+            android:text="Age"
+            android:id="@+id/age"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="59dp"
+        android:text="Already registered? Login now"
+        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/logindirct"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="110dp"
+        android:background="@drawable/button_background"
+        android:text="Be a donor!"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBlack"
+        android:textSize="17sp" />
+
+    <!--This is second step-->
+
+
+
+</RelativeLayout>
